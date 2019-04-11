@@ -39,4 +39,14 @@ class OperationsTest {
     void sumWithParenthesis() {
         assertEquals(_calculator.calculate("3+(1 + 1.2685)"), 5.2685, DELTA);
     }
+
+    @Test
+    void manyParenthesis() {
+        assertEquals(_calculator.calculate("3+(-1 + (1.2685*((-5))))"), -4.3425, DELTA);
+    }
+
+    @Test
+    void manyParenthesis2() {
+        assertEquals(_calculator.calculate("(-1+(1))"), 0, DELTA);
+    }
 }

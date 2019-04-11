@@ -66,18 +66,22 @@ public final class MyAwesomeCalculator implements Calculator {
     }
 
     private String removeOuterParenthesis(String expression) {
-        if (expression.charAt(0) == '(') {
-            if (expression.charAt(expression.length() - 1) != ')')
-                throw new BadSyntaxException("Wrong number of parenthesis");
-            expression = expression.substring(1, expression.length() - 1);
+        int i = 0;
+        while (expression.charAt(i) == '(' && expression.charAt(expression.length() - i - 1) == ')')
+            i++;
+
+        if (expression.charAt(i) == '(') {
+            throw new BadSyntaxException("Wrong number of parenthesis");
         }
+
+        expression = expression.substring(i, expression.length() - i);
         return expression;
     }
 
     private int nextOperationAt(String expression) {
         var deepLevel = 0;
         char ch;
-        for (int i = 0; i < expression.length(); i++) {
+        for (int i = 1; i < expression.length(); i++) {
             ch = expression.charAt(i);
             if (_operations.contains(ch) && deepLevel == 0) {
                 return i;
