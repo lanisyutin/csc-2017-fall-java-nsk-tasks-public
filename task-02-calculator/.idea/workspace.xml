@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/csc/nsk/java2017/impl/lanisyutin/task02/MyAwesomeCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="422">
+              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,16 +48,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/OperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+            <state relative-caret-position="357">
+              <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
               <folding>
                 <element signature="e#1128#1129#0" expanded="true" />
                 <element signature="e#1223#1224#0" expanded="true" />
                 <element signature="e#1266#1267#0" expanded="true" />
                 <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1454#1455#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#1579#1580#0" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/MyAwesomeCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/ThrowExceptionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/FunctionsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/OperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/csc/nsk/java2017/impl/lanisyutin/task02/MyAwesomeCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/OperationsTest.java" />
       </list>
     </option>
   </component>
@@ -224,7 +230,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554993301802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555073055640" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -254,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThrowExceptionTest">
+  <component name="RunManager" selected="JUnit.OperationsTest.noParenthesis3">
     <configuration name="FunctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -285,7 +291,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationsTest.manyParenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperationsTest.noParenthesis2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -295,13 +301,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.csc.nsk.java2017.impl.lanisyutin.task02" />
       <option name="MAIN_CLASS_NAME" value="org.csc.nsk.java2017.impl.lanisyutin.task02.OperationsTest" />
-      <option name="METHOD_NAME" value="manyParenthesis" />
+      <option name="METHOD_NAME" value="noParenthesis2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationsTest.manyParenthesis2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperationsTest.noParenthesis3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -311,7 +317,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.csc.nsk.java2017.impl.lanisyutin.task02" />
       <option name="MAIN_CLASS_NAME" value="org.csc.nsk.java2017.impl.lanisyutin.task02.OperationsTest" />
-      <option name="METHOD_NAME" value="manyParenthesis2" />
+      <option name="METHOD_NAME" value="noParenthesis3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -334,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ThrowExceptionTest" />
+        <item itemvalue="JUnit.OperationsTest.noParenthesis3" />
+        <item itemvalue="JUnit.OperationsTest.noParenthesis2" />
         <item itemvalue="JUnit.FunctionsTest" />
+        <item itemvalue="JUnit.ThrowExceptionTest" />
         <item itemvalue="JUnit.OperationsTest" />
-        <item itemvalue="JUnit.OperationsTest.manyParenthesis2" />
-        <item itemvalue="JUnit.OperationsTest.manyParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -355,44 +361,44 @@
       <workItem from="1554897360405" duration="11154000" />
       <workItem from="1554916147053" duration="1319000" />
       <workItem from="1554979657416" duration="3209000" />
-      <workItem from="1554992576823" duration="722000" />
+      <workItem from="1554992576823" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OperationsTest_manyParenthesis - 2019.04.11 at 18h 30m 50s.xml">
-      <configuration name="OperationsTest.manyParenthesis" configurationId="JUnit" />
+    <history-entry file="OperationsTest_noParenthesis - 2019.04.12 at 19h 35m 33s.xml">
+      <configuration name="OperationsTest.noParenthesis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperationsTest_manyParenthesis - 2019.04.11 at 18h 35m 12s.xml">
-      <configuration name="OperationsTest.manyParenthesis" configurationId="JUnit" />
+    <history-entry file="OperationsTest_noParenthesis - 2019.04.12 at 19h 36m 26s.xml">
+      <configuration name="OperationsTest.noParenthesis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperationsTest_manyParenthesis - 2019.04.11 at 18h 36m 24s.xml">
-      <configuration name="OperationsTest.manyParenthesis" configurationId="JUnit" />
+    <history-entry file="OperationsTest_noParenthesis - 2019.04.12 at 19h 37m 12s.xml">
+      <configuration name="OperationsTest.noParenthesis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperationsTest_manyParenthesis - 2019.04.11 at 18h 37m 58s.xml">
-      <configuration name="OperationsTest.manyParenthesis" configurationId="JUnit" />
+    <history-entry file="OperationsTest_noParenthesis - 2019.04.12 at 19h 41m 05s.xml">
+      <configuration name="OperationsTest.noParenthesis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperationsTest_manyParenthesis - 2019.04.11 at 21h 31m 05s.xml">
-      <configuration name="OperationsTest.manyParenthesis" configurationId="JUnit" />
+    <history-entry file="OperationsTest_noParenthesis - 2019.04.12 at 19h 41m 58s.xml">
+      <configuration name="OperationsTest.noParenthesis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperationsTest_manyParenthesis - 2019.04.11 at 21h 31m 08s.xml">
-      <configuration name="OperationsTest.manyParenthesis" configurationId="JUnit" />
+    <history-entry file="OperationsTest_noParenthesis - 2019.04.12 at 19h 42m 29s.xml">
+      <configuration name="OperationsTest.noParenthesis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperationsTest_manyParenthesis2 - 2019.04.11 at 21h 34m 01s.xml">
-      <configuration name="OperationsTest.manyParenthesis2" configurationId="JUnit" />
+    <history-entry file="OperationsTest_noParenthesis - 2019.04.12 at 19h 42m 32s.xml">
+      <configuration name="OperationsTest.noParenthesis" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperationsTest - 2019.04.11 at 21h 34m 08s.xml">
+    <history-entry file="OperationsTest - 2019.04.12 at 19h 42m 40s.xml">
       <configuration name="OperationsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunctionsTest - 2019.04.11 at 21h 34m 13s.xml">
-      <configuration name="FunctionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThrowExceptionTest - 2019.04.11 at 21h 34m 18s.xml">
+    <history-entry file="ThrowExceptionTest - 2019.04.12 at 19h 42m 45s.xml">
       <configuration name="ThrowExceptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2019.04.12 at 19h 42m 51s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16404000" />
+    <option name="totallyTimeSpent" value="19991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -407,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22096318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,15 +443,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/csc/nsk/java2017/impl/lanisyutin/task02/MyAwesomeCalculator.java</url>
-          <line>26</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/csc/nsk/java2017/impl/lanisyutin/task02/MyAwesomeCalculator.java</url>
-          <line>69</line>
+          <line>98</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -511,23 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/OperationsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/csc/nsk/java2017/impl/lanisyutin/task02/MyAwesomeCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-          <folding>
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/FunctionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="422">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -541,12 +534,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/csc/nsk/java2017/impl/lanisyutin/task02/MyAwesomeCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/FunctionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/csc/nsk/java2017/impl/lanisyutin/task02/OperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
           </folding>
         </state>
       </provider>

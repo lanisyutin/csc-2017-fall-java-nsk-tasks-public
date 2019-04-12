@@ -49,4 +49,19 @@ class OperationsTest {
     void manyParenthesis2() {
         assertEquals(_calculator.calculate("(-1+(1))"), 0, DELTA);
     }
+
+    @Test
+    void noParenthesis() {
+        assertEquals(_calculator.calculate("(-1+1)*(1 - 1)"), 0, DELTA);
+    }
+
+    @Test
+    void noParenthesis2() {
+        assertEquals(_calculator.calculate("  -11-1"), -12, DELTA);
+    }
+
+    @Test
+    void noParenthesis3() {
+        assertEquals(_calculator.calculate("  -11"), -11, DELTA);
+    }
 }

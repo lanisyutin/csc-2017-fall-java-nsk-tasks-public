@@ -24,6 +24,9 @@ public final class MyAwesomeCalculator implements Calculator {
         if (expression.isBlank())
             throw new BadSyntaxException("Bad input");
 
+        if (!isValid(expression))
+            throw new BadSyntaxException("Wrong number of parenthesis");
+
         expression = expression
                 .strip()
                 .replaceAll(" ", "")
@@ -65,33 +68,44 @@ public final class MyAwesomeCalculator implements Calculator {
         return result;
     }
 
-    private String removeOuterParenthesis(String expression) {
-        int i = 0;
-        while (expression.charAt(i) == '(' && expression.charAt(expression.length() - i - 1) == ')')
-            i++;
-
-        if (expression.charAt(i) == '(') {
-            throw new BadSyntaxException("Wrong number of parenthesis");
+    private boolean isValid(String expression){
+        var deepLevel = 0;
+        char ch;
+        for (int i = 0; i < expression.length(); i++) {
+            ch = expression.charAt(i);
+            if (ch == '(') deepLevel++;
+            if (ch == ')') deepLevel--;
+            if (deepLevel < 0) return false;
         }
 
-        expression = expression.substring(i, expression.length() - i);
-        return expression;
+        if (deepLevel > 0)
+            throw new BadSyntaxException("Wrong number of parenthesis");
+
+        return true;
+    }
+
+    private String removeOuterParenthesis(String expression) {
+        int i = 0;
+        int length = expression.length();
+        while (expression.charAt(i) == '(' &&
+                expression.charAt(length - i - 1) == ')' &&
+                isValid(expression.substring(i+1, length - 1 - i)))
+            i++;
+
+        return expression.substring(i, expression.length() - i);
     }
 
     private int nextOperationAt(String expression) {
         var deepLevel = 0;
         char ch;
-        for (int i = 1; i < expression.length(); i++) {
+        for (int i = 0; i < expression.length(); i++) {
             ch = expression.charAt(i);
-            if (_operations.contains(ch) && deepLevel == 0) {
+            if (i>0 && _operations.contains(ch) && deepLevel == 0)
                 return i;
-            }
+
             if (ch == '(') deepLevel++;
             if (ch == ')') deepLevel--;
-            if (deepLevel < 0) throw new BadSyntaxException("Wrong number of parenthesis");
         }
-
-        if (deepLevel > 0) throw new BadSyntaxException("Wrong number of parenthesis");
 
         return -1;
     }
